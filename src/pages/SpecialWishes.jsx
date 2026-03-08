@@ -6,17 +6,10 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Sayangku 💖, hari ini adalah momen yang paling indah karena hari ini kamu lahir ke dunia 🎉. Aku ingin berdoa agar kamu selalu dalam lindungan Tuhan 🙏, diberi kesehatan 💪, kekuatan 🛡️, dan kebahagiaan yang tiada akhir 🌈✨.
-
-Aku tahu hidup tidak selalu mudah 🌧️, tapi aku ingin kamu tahu bahwa kamu tidak sendiri 🤝. Aku akan selalu mendukungmu 💞, menyemangati kamu 💫, dan menjadi pundakmu saat kamu lelah 😔➡️💆‍♀️.
-
-Semoga setiap langkahmu penuh keberkahan 🕌, dan setiap impianmu satu per satu menjadi kenyataan 🌠. Kamu punya hati yang tulus 💓, senyum yang menenangkan 😊, dan jiwa yang cantik luar dalam 🌹. Dunia butuh lebih banyak orang sepertimu 🌍❤️.
-
-Aku ingin kamu tahu bahwa aku percaya padamu sepenuhnya 🙌. Kamu kuat 💥, kamu hebat 🦋, dan kamu pantas mendapatkan yang terbaik 🏆. Jangan pernah ragukan dirimu sendiri 🙅‍♀️, karena kamu adalah cahaya dalam hidup banyak orang 🌟, termasuk hidupku 💘.
-
-Jika suatu hari kamu merasa ragu atau takut 😟, ingatlah doaku ini: Semoga kamu selalu dikelilingi orang-orang baik 👨‍👩‍👧‍👦, rezeki yang cukup 💰, dan cinta yang tulus dari semua arah 💗. Termasuk dariku 🫶.
-
-Aku cinta kamu ❤️, dan akan selalu mencintaimu 💍.
+selamat bertambah umur sayangku, semoga d
+umur kamu yg sekarang kamu bisa jauh lebih baik dari yg sebelumnya ya maaf kalau aku banyak kurang nya buat kamu, maaf kalo aku
+belum bisa jadi yg kamu mau, aku akan terus berusaha jadi yg terbaik buat kamu, pertahun umur akan bertambah 1, semoga untuk kedepannya kamu semakin menjadi orang yg kuat untuk cobaan yg akan datang, kamu ga sendiri kamu punya aku, aku akan selalu ada buat kamu sampe kamu ga butuh aku lagi, kamu semakin dewasa kamu pasti akan semakin paham mana yg baik dan ga baik buat diri kamu, jangan pernah bosen untuk memperbaiki diri sekarang, besok, dan seterusnya, semangat buat kejar apa yg kamu impikan, doa terbaik untuk kamuu, tetap rendah hati ya, tetap jadi anak baik, sama aku terus yaa? aku harap dihari spesial kamu banyak kebahagiaan yg datang, aku gabisa
+menjelaskan lagi betapa berarti nya kamu d hidup aku, terimakasi uda sekuat ini untuk bertahan!! im proud of u, sekali lagi happy level up ya, wish u all the best universe .Love you sayangku❤️
   `;
 
   return (
@@ -86,7 +79,7 @@ Aku cinta kamu ❤️, dan akan selalu mencintaimu 💍.
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Piaa 💖
+                  Muhandi 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   My Heart Belongs to you, Honey🥹
