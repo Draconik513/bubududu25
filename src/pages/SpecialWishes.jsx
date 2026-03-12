@@ -6,9 +6,17 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-selamat bertambah umur sayangku, semoga di umur kamu yg sekarang kamu bisa jauh lebih baik dari yg sebelumnya ya maaf kalau aku banyak kurang nya buat kamu, maaf kalo aku
-belum bisa jadi yg kamu mau, aku akan terus berusaha jadi yg terbaik buat kamu, pertahun umur akan bertambah 1, semoga untuk kedepannya kamu semakin menjadi orang yg kuat untuk cobaan yg akan datang, kamu ga sendiri kamu punya aku, aku akan selalu ada buat kamu sampe kamu ga butuh aku lagi, kamu semakin dewasa kamu pasti akan semakin paham mana yg baik dan ga baik buat diri kamu, jangan pernah bosen untuk memperbaiki diri sekarang, besok, dan seterusnya, semangat buat kejar apa yg kamu impikan, doa terbaik untuk kamuu, tetap rendah hati ya, tetap jadi anak baik, sama aku terus yaa? aku harap dihari spesial kamu banyak kebahagiaan yg datang, aku gabisa
-menjelaskan lagi betapa berarti nya kamu d hidup aku, terimakasi uda sekuat ini untuk bertahan!! im proud of u, sekali lagi happy level up ya, wish u all the best universe .Love you sayangku❤️
+Mas, first of all, i just wanna say thank u. thank u for being u, for being patient, kind, and always making me feel loved. 🥹
+
+i hope, in every step u take, i can still be right beside u, cheering u on.
+
+kedepannya pasti bakal lebih banyak batu kerikil maupun batu besar yg bakal mas temui. tolong tetap kuat, tetap semangat dan tetap hangat ya, mas.
+
+di umur mas yang baru ini, i hope all your dreams start coming true one by one. mudah-mudahan mas selalu diberi kesehatan, rezeki yang lancar, selalu dilimpahkan kebahagiaan dan selalu diberi hati yang tenang dalam menghadapi apapun.
+
+sekali lagi, selamat ulang tahun, ganteng! mudah-mudahan makin dewasa yaa, tapi jangan berubah jadi bapak-bapak yang galak wkwk
+
+dari neng, neng mu 🌹✨
   `;
 
   return (
@@ -78,7 +86,7 @@ menjelaskan lagi betapa berarti nya kamu d hidup aku, terimakasi uda sekuat ini 
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Muhandi 💖
+                  Alkhoris 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   My Heart Belongs to you, Honey🥹
