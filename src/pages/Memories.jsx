@@ -84,7 +84,7 @@ const Memories = ({ isIOS }) => {
           style={{ WebkitTapHighlightColor: "transparent" }}
         >
           <span className="button-text">
-            {flowerBloom ? "Tutup Bunga" : "Buka Bunga Cinta"}
+            {flowerBloom ? "Tutup Bunga" : "Buka Bunga"}
           </span>
         </motion.button>
 
