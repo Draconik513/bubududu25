@@ -14,7 +14,7 @@ const BirthdayCountdown = ({ isIOS }) => {
   const [replyMessage, setReplyMessage] = useState("");
   const navigate = useNavigate();
 
-  const targetDate = new Date("2026-03-11T00:00:00");
+  const targetDate = new Date("2026-03-20T18:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -108,7 +108,7 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅 20 Maret 2025
+            📅 20 Maret 2026, 18:00
           </h3>
           <p className="text-pink-600">
             Selamat bertambah umurnya sayang ku 

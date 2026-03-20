@@ -15,7 +15,7 @@ const GiftWrapper = () => {
   // Check if countdown is finished (August 10, 2025)
   useEffect(() => {
     const checkCountdown = () => {
-      const targetDate = new Date("2026-03-11T00:00:00");
+      const targetDate = new Date("2026-03-20T18:00:00");
       const now = new Date();
       if (now >= targetDate) {
         setCountdownFinished(true);
@@ -129,7 +129,7 @@ const GiftWrapper = () => {
             className="mt-4 p-4 bg-white rounded-lg shadow-md max-w-md text-center"
           >
             <p className="text-pink-600">
-              Hadiah belum bisa dibuka sampai 20 Maret 2025 !
+              Hadiah belum bisa dibuka sampai 20 Maret 2026 jam 18:00 !
             </p>
             <p className="text-sm text-gray-500 mt-2">
               Tunggu sampai hari ulang tahun tiba 🌹
@@ -141,7 +141,7 @@ const GiftWrapper = () => {
       {!countdownFinished && (
         <div className="mt-8 p-4 bg-white bg-opacity-80 rounded-lg shadow-md max-w-md text-center">
           <p className="text-pink-600">Hadiah ini terkunci sampai:</p>
-          <p className="text-xl font-bold text-purple-600"> 20 Maret 2025 </p>
+          <p className="text-xl font-bold text-purple-600"> 20 Maret 2026, 18:00 </p>
         </div>
       )}
     </div>

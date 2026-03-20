@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import ConfettiBackground from "../components/ConfettiBackground";
 import FloatingHearts from "../components/FloatingHearts";
-import heartVideo from "../assets/videos/heart-animation.mp4";
+import heartImage from "../assets/images/heart-animation.jpg";
 
 const HomePage = ({ isIOS }) => {
   const navigate = useNavigate();
@@ -37,16 +37,10 @@ const HomePage = ({ isIOS }) => {
           className="mb-8"
         >
           <div className="w-64 h-64 mx-auto rounded-full border-4 border-pink-300 shadow-lg overflow-hidden">
-            <video
-              src={heartVideo}
-              autoPlay
-              loop
-              muted
-              playsInline
-              webkit-playsinline="true"
-              x-webkit-airplay="allow"
+            <img
+              src={heartImage}
+              alt="heart animation"
               className="w-full h-full object-cover"
-              style={{ transform: "translateZ(0)" }}
             />
           </div>
         </motion.div>
