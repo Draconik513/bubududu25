@@ -29,51 +29,34 @@ const Memories = ({ isIOS }) => {
           transition={{ delay: 0.3 }}
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
-          <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            permintaan maaf neng di hari ulang tahun mas
+         <h2 className="text-2xl font-semibold text-rose-600 mb-4">
+            Permintaan Maafku di Hari Ulang Tahunmu
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>maaf ya, mas</strong>
+              💌 <strong>Maaf ya, Sayang...</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              kemaren tu sebenernya mau ngeprank mas, tapi neng nya malah
-              beneran kebawa emosi 🙏🏼😔 1000% rencananya mau prank aja asli 🙏🏼😔
-              tapi pas baca respon mas, neng jadinya kebawa emosi 😔 gaada
-              maksud buat kayak gitu 😔 one more again, i’m so solly mas 😔
+              Maaf kalau selama ini aku pernah cuek 😞, terlalu sibuk 😔, atau kurang peka sama perasaanmu 😢. Maaf kalau kadang aku bikin kamu kecewa, salah paham, atau merasa sendiri 😓. Aku gak pernah berniat nyakitin kamu 🥺. Semua itu karena aku manusia biasa yang masih belajar mencintaimu dengan lebih baik 🤍.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              maaf juga buat semua sikap neng yg secara ga langsung udah
-              nyakitin mas 😔 neng cuma manusia biasa yg masih terus belajar
-              buat mahamin mas lebih baik lagi 😔
+              Terima kasih sudah sabar, sudah tetap di sini 🫶. Aku akan terus belajar jadi lebih baik lagi... untuk kamu 💗
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              terimakasih udah sangat sabar, udah mau jadi air kalo neng lagi
-              jadi api 😔 neng bakal terus belajar biar lebih baik lagi
-              kedepannya, ga janji tapi sangat diusahakan 🥹
-            </motion.p>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 1.8 }}
-            >
-              stay safe, stay healthy, kalo bisa stay with me juga xixi, kalo
-              dimaafkan alhamdulillaah terimakasih, kalo pun engga ya gapapa,
-              neng cuma mau ngasih ucapan sama doa aja buat mas terimakasih juga
-              udah mau luangin waktu mas buat baca ini ✨
+              🙏🏻 Maaf ya, dan makasih karena kamu tetap percaya sama aku.
             </motion.p>
           </div>
         </motion.div>
@@ -86,7 +69,7 @@ const Memories = ({ isIOS }) => {
           style={{ WebkitTapHighlightColor: "transparent" }}
         >
           <span className="button-text">
-            {flowerBloom ? "Tutup Bunga" : "Buka Bunga"}
+            {flowerBloom ? "Tutup Bunga" : "Buka Bunga Cinta"}
           </span>
         </motion.button>
 
@@ -172,7 +155,7 @@ const Memories = ({ isIOS }) => {
             transition={{ delay: 2.2 }}
             className="text-center text-pink-600 mt-6 italic text-lg"
           >
-            🌸 Bunga ini sebagai hadiah dariku mas... Tolong diterima ya 🥺🌹
+            🌸 Bunga ini sebagai hadiah dariku sayang... Tolong diterima ya 🥺❤️
           </motion.p>
         )}
       </motion.div>
